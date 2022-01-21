@@ -78,13 +78,13 @@ h1 {
   height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 10px 20px 30px 20px;
+  /* padding: 10px 20px 30px 20px; */
 }
 
 .sidebar h2 {
   font-weight: 600;
   text-align: center;
-  margin: 15px 0 15px 15px;
+  margin: 15px 15px 15px 15px;
   font-size: 1em;
   text-transform: uppercase;
   background: #f7b210;
@@ -99,17 +99,43 @@ h1 {
   height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 10px 20px 30px 20px;
+  /* padding: 10px 20px 30px 20px; */
 }
 
 .contenuto h2 {
   font-weight: 600;
   text-align: center;
-  margin: 15px 0 15px 15px;
+  margin: 15px 15px 15px 15px;
   font-size: 1em;
   text-transform: uppercase;
   background: #a1c11d;
   border-radius: 50px;
   padding: 2px;
   color: #374648;
+}
+
+.list-categorie {
+  position: relative;
+
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.categoria-card {
+  max-width: 150px;
+  margin: 0 auto 10px;
+}
+
+.categoria-card-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.75);
+  letter-spacing: -0.1em;
+}
+
+.categoria-card-img {
+  width: 100%;
+  height: 100px;
+  display: block;
+  padding: 0 auto 10px;
 }

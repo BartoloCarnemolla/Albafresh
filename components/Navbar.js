@@ -25,19 +25,19 @@ export default function Navbar() {
           <div className='collapse navbar-collapse' id='navmenu'>
             <ul className='navbar-nav ms-auto'>
               <li className='nav-item'>
-                <a href='/chisiamo' className='nav-link'>
-                  Chi siamo
-                </a>
+                <Link href='/chisiamo'>
+                  <a className='nav-link'>Chi siamo</a>
+                </Link>
               </li>
               <li className='nav-item'>
-                <a href='/prodotti' className='nav-link'>
-                  Prodotti
-                </a>
+                <Link href='/prodotti'>
+                  <a className='nav-link'>Prodotti</a>
+                </Link>
               </li>
               <li className='nav-item'>
-                <a href='/about' className='nav-link'>
-                  About
-                </a>
+                <Link href='/about'>
+                  <a className='nav-link'>About</a>
+                </Link>
               </li>
             </ul>
           </div>
