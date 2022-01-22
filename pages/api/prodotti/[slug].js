@@ -1,34 +1,11 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import { API_URL } from '@/config/index'
+const { prodotti } = require('./prodotti.json')
 
-export default function ProdottoPage({ prd }) {
-  return (
-    <div>
-      <h2>Singolo prodotto</h2>
-    </div>
-  )
-}
-
-export async function getStaticPaths() {
-  const res = await fetch(`${API_URL}/api/prodotti`)
-  const prodotti = await res.json()
-  const paths = prodotti.map((prd) => ({
-    params: { slug: prd.slug },
-  }))
-  return {
-    paths,
-    fallback: true,
-  }
-}
-
-export async function getStaticProps({ params: { slug } }) {
-  const res = await fetch(`${API_URL}/api/prodotti/${slug}`)
-  const prodotti = await res.json()
-  return {
-    props: {
-      prd: prodotti[0],
-      revalidate: 1,
-    },
+export default (req, res) => {
+  const prd = prodotti.filter((pr) => pr.slug === req.query.slug)
+  if (req.method === 'GET') {
+    res.status(200).json(prd)
+  } else {
+    res.setHeader('Allow', ['GET'])
+    res.status(405).json({ message: `Method ${req.method} is not allowed` })
   }
 }
