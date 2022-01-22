@@ -11,7 +11,7 @@ export default function ProdottiPage() {
               <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center'>
                 <div className='card categoria-card'>
                   <img
-                    src='/images/ciliegino.jpeg'
+                    src='/images/cherry.jpeg'
                     alt='ciliegino'
                     className='card-img-top categoria-card-img'
                   />
@@ -40,7 +40,7 @@ export default function ProdottiPage() {
               <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center'>
                 <div className='card categoria-card'>
                   <img
-                    src='/images/zucchine.jpeg'
+                    src='/images/zucchini.jpeg'
                     alt='zucchine'
                     className='card-img-top categoria-card-img'
                   />
