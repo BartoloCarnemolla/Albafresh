@@ -1,0 +1,46 @@
+{
+  "prodotti": [
+    {
+      "id": "1",
+      "slug": "ciliegino-singolo",
+      "descrizione": "Cherry",
+      "immagine": "/images/cherry.jpeg"
+    },
+    {
+      "id": "2",
+      "slug": "peperoni-mixed",
+      "descrizione": "Peperoni",
+      "immagine": "/images/peperoni.jpeg"
+    },
+    {
+      "id": "3",
+      "slug": "zucchine-lunghe",
+      "descrizione": "Zucchine",
+      "immagine": "/images/zucchini.jpeg"
+    },
+    {
+      "id": "4",
+      "slug": "meloni-cantalupo",
+      "descrizione": "Meloni Cantalupo",
+      "immagine": "/images/melone-cantalupo.png"
+    },
+    {
+      "id": "5",
+      "slug": "mini-angurie",
+      "descrizione": "Mini Angurie",
+      "immagine": "/images/mini-melone.jpeg"
+    },
+    {
+      "id": "6",
+      "slug": "pesca-piatta",
+      "descrizione": "Pesche piatte",
+      "immagine": "/images/pesca-piatta.png"
+    },
+    {
+      "id": "6",
+      "slug": "pesca-rossa",
+      "descrizione": "Pesche Rosse",
+      "immagine": "/images/pesche.jpeg"
+    }
+  ]
+}
