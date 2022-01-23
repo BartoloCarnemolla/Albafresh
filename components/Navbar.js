@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className='container-fluid'>
           <div className={styles.logo}>
             <Link href='/' className='navbar-brand'>
-              <a>Albafresh</a>
+              <a>Catalogo</a>
             </Link>
           </div>
           <button
@@ -29,8 +29,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link href='/catalogo'>
-                  <a className='nav-link'>Catalogo</a>
+                <Link href='/prodotti'>
+                  <a className='nav-link'>Prodotti</a>
                 </Link>
               </li>
               <li className='nav-item'>
