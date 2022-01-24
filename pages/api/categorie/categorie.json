@@ -1,0 +1,28 @@
+{
+  "categorie": [
+    {
+      "id": "1",
+      "slug": "ortaggi",
+      "descrizione": "Ortaggi",
+      "immagine": "/images/ortaggi.jpeg"
+    },
+    {
+      "id": "2",
+      "slug": "verdure",
+      "descrizione": "Verdure",
+      "immagine": "/images/verdure.jpeg"
+    },
+    {
+      "id": "3",
+      "slug": "frutta",
+      "descrizione": "Frutta",
+      "immagine": "/images/frutta.jpeg"
+    },
+    {
+      "id": "4",
+      "slug": "trasformati",
+      "descrizione": "Trasformati",
+      "immagine": "/images/trasformati.jpeg"
+    }
+  ]
+}

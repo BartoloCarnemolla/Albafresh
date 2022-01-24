@@ -6,7 +6,8 @@ export default function ProdottoItem({ prd }) {
     <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center'>
       <div className='card categoria-card'>
         <Image
-          src={prd.immagine ? prd.immagine : '/images/no-image-avaiable.png'}
+          src={prd.immagine ? prd.immagine : '/images/default.png'}
+          // src={'/images/default.png'} evt.image.formats.thumbnail.url
           className='card-img-top categoria-card-img'
           width={100}
           height={100}

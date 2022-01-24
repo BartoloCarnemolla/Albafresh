@@ -2,45 +2,66 @@
   "prodotti": [
     {
       "id": "1",
-      "slug": "ciliegino-singolo",
-      "descrizione": "Cherry",
-      "immagine": "/images/cherry.jpeg"
+      "slug": "datterino",
+      "descrizione": "Datterino",
+      "immagine": "/images/prodotti/datterino.png",
+      "slug_categoria": "ortaggi"
     },
     {
       "id": "2",
-      "slug": "peperoni-mixed",
-      "descrizione": "Peperoni",
-      "immagine": "/images/peperoni.jpeg"
+      "slug": "mini-sanmarzano",
+      "descrizione": "Mini San Marzano",
+      "immagine": "/images/prodotti/mini-sanmarzano.png",
+      "slug_categoria": "ortaggi"
     },
     {
       "id": "3",
-      "slug": "zucchine-lunghe",
-      "descrizione": "Zucchine",
-      "immagine": "/images/zucchini.jpeg"
+      "slug": "cherry-singolo",
+      "descrizione": "Cherry Singolo",
+      "immagine": "/images/prodotti/cherry-singolo.png",
+      "slug_categoria": "ortaggi"
     },
     {
       "id": "4",
-      "slug": "meloni-cantalupo",
-      "descrizione": "Cantalupo",
-      "immagine": "/images/melone-cantalupo.png"
+      "slug": "cherry-grappolo",
+      "descrizione": "Cherry Grappolo",
+      "immagine": "/images/prodotti/cherry-grappolo.png",
+      "slug_categoria": "ortaggi"
     },
     {
       "id": "5",
-      "slug": "mini-angurie",
-      "descrizione": "Mini Angurie",
-      "immagine": "/images/mini-melone.jpeg"
+      "slug": "cherry-mix",
+      "descrizione": "Cherry Mix",
+      "immagine": "/images/prodotti/cherry-mix.png",
+      "slug_categoria": "ortaggi"
     },
     {
       "id": "6",
-      "slug": "pesca-piatta",
-      "descrizione": "Pesche piatte",
-      "immagine": "/images/pesca-piatta.png"
+      "slug": "zucca-butternut",
+      "descrizione": "Zucca Butternut",
+      "immagine": "/images/prodotti/zucca-butternut.png",
+      "slug_categoria": "ortaggi"
     },
     {
-      "id": "6",
-      "slug": "pesca-rossa",
-      "descrizione": "Pesche Rosse",
-      "immagine": "/images/pesche.jpeg"
+      "id": "7",
+      "slug": "anguria-mini",
+      "descrizione": "Anguria Mini",
+      "immagine": "/images/prodotti/anguria-mini.png",
+      "slug_categoria": "frutta"
+    },
+    {
+      "id": "8",
+      "slug": "melone-retato",
+      "descrizione": "Melone Retato",
+      "immagine": "/images/prodotti/melone-retato.png",
+      "slug_categoria": "frutta"
+    },
+    {
+      "id": "9",
+      "slug": "melone-giallo",
+      "descrizione": "Melone Giallo",
+      "immagine": "/images/prodotti/melone-giallo.png",
+      "slug_categoria": "frutta"
     }
   ]
 }
