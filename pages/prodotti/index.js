@@ -19,6 +19,7 @@ export default function CatalogoPage({ prodotti }) {
           </div>
           <div className='col-xl-9 col-lg-8 col-md-9 col-sm-8 col-8 contenuto'>
             <h2>Lavorazioni</h2>
+            <img src='/images/ortaggi.jpeg'></img>
           </div>
         </div>
       </div>

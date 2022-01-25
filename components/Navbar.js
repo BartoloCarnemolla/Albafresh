@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <header>
-      <nav className='navbar navbar-expand-lg navbar-dark py-3 shadow fixed-top menu'>
+      <nav className='navbar navbar-expand-lg navbar-dark py-2 shadow fixed-top menu'>
         <div className='container-fluid'>
           <div className={styles.logo}>
             <Link href='/' className='navbar-brand'>
