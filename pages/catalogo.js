@@ -1,6 +1,7 @@
 import Layout from '@/components/Layout'
 import ProdottoItem from '@/components/ProdottoItem'
 import { API_URL } from '@/config/index'
+import LavorazionePage from './lavorazioni'
 
 export default function CatalogoPage({ prodotti }) {
   return (
@@ -19,6 +20,7 @@ export default function CatalogoPage({ prodotti }) {
           </div>
           <div className='col-xl-9 col-lg-8 col-md-9 col-sm-8 col-8 contenuto'>
             <h2>Lavorazioni</h2>
+            <LavorazionePage />
           </div>
         </div>
       </div>

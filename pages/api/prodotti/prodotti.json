@@ -62,6 +62,63 @@
       "descrizione": "Melone Giallo",
       "immagine": "/images/prodotti/melone-giallo.png",
       "slug_categoria": "frutta"
+    },
+    {
+      "id": "10",
+      "slug": "cetriolo",
+      "descrizione": "Cetriolo",
+      "immagine": "/images/prodotti/cetriolo.png",
+      "slug_categoria": "ortaggi"
+    },
+    {
+      "id": "11",
+      "slug": "Melanzana",
+      "descrizione": "Melanzana",
+      "immagine": "/images/prodotti/melanzana.png",
+      "slug_categoria": "ortaggi"
+    },
+    {
+      "id": "12",
+      "slug": "peperone-mix",
+      "descrizione": "Peperoni Mix",
+      "immagine": "/images/prodotti/peperone-mix.png",
+      "slug_categoria": "ortaggi"
+    },
+    {
+      "id": "13",
+      "slug": "zucchina-lunga",
+      "descrizione": "Zucchina lunga",
+      "immagine": "/images/prodotti/zucchina-lunga.png",
+      "slug_categoria": "ortaggi"
+    },
+
+    {
+      "id": "13",
+      "slug": "pomodoro-grappolo",
+      "descrizione": "Pomodoro Grappolo",
+      "immagine": "/images/prodotti/pomodoro-grappolo.png",
+      "slug_categoria": "ortaggi"
+    },
+    {
+      "id": "14",
+      "slug": "pomodoro-ovale",
+      "descrizione": "Pomodoro Ovale",
+      "immagine": "/images/prodotti/pomodoro-ovale.png",
+      "slug_categoria": "ortaggi"
+    },
+    {
+      "id": "15",
+      "slug": "pomodoro-tondo",
+      "descrizione": "Pomodoro Tondo",
+      "immagine": "/images/prodotti/pomodoro-tondo.png",
+      "slug_categoria": "ortaggi"
+    },
+    {
+      "id": "16",
+      "slug": "sedano",
+      "descrizione": "Sedano",
+      "immagine": "/images/prodotti/sedano.png",
+      "slug_categoria": "ortaggi"
     }
   ]
 }

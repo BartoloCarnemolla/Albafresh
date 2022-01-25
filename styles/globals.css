@@ -192,3 +192,48 @@ h1 {
   font-size: 0.7em;
   color: rgba(0, 0, 0, 0.4);
 }
+
+/* LAVORAZIONI */
+
+.list-lavorazioni {
+  position: relative;
+
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.lavorazione-card {
+  max-width: 250px !important;
+  margin: 15px auto;
+  padding: 10px;
+  /* margin-bottom: 2px; */
+  align-items: center;
+  /* border: none; */
+  background: whitesmoke;
+  border-radius: 5%;
+}
+
+.lavorazione-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.75);
+  letter-spacing: -0.02em;
+}
+
+.lavorazione-card-body {
+  padding: 0;
+}
+
+.lavorazione-card-img {
+  height: 100px;
+  width: max-content;
+  display: block;
+  background-size: 100px auto !important;
+  padding: 0px;
+  margin: auto;
+
+  /* width: 100%;
+  display: block;
+  padding: 0 auto 10px;
+  background-size: 100px auto !important; */
+}
