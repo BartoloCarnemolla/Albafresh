@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '@/styles/Navbar.module.css'
 
 export default function Navbar() {
@@ -10,7 +11,13 @@ export default function Navbar() {
         <div className='container-fluid'>
           <div className={styles.logo}>
             <Link href='/' className='navbar-brand'>
-              <a>Catalogo</a>
+              <a>
+                <Image
+                  src='/images/logo_albabio_bianco.png'
+                  height={43}
+                  width={85}
+                />
+              </a>
             </Link>
           </div>
           <button
@@ -30,7 +37,7 @@ export default function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link href='/prodotti'>
-                  <a className='nav-link'>Prodotti</a>
+                  <a className='nav-link'>Ortaggi</a>
                 </Link>
               </li>
               <li className='nav-item'>
